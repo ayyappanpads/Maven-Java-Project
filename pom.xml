@@ -9,7 +9,15 @@
   <version>1.0-SNAPSHOT</version>
   <name>Maven Web Project</name>
   <description>Maven java Project for Java</description>
-
+      <configuration>
+        <archive>
+          <manifest>
+            <addClasspath>true</addClasspath>
+            <classpathPrefix>lib/</classpathPrefix>
+            <mainClass>com.mypackage.MyClass</mainClass>
+          </manifest>
+        </archive>
+      </configuration>
  <organization>
      <name>Mithun Technologies</name>
      <url>http://mithuntechnologies.com/</url>
